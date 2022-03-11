@@ -13,7 +13,7 @@ const StyledDiv = styled.div`
 
 const clickCounter = atom({
   key: "clickCounter",
-  default: [2],
+  default: [0],
 });
 
 function App() {
