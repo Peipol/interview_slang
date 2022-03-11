@@ -43,6 +43,11 @@ const StyledButton = styled.button<ButtonProps>`
     2px 3px ${5   + activeBlur}px #ff9ecf,
     2px 3px ${8   + activeBlur}px #ffd1e8;
   }
+
+  &:focus {
+    outline: 0;
+  }
+  
   span {
       font-weight: bolder;
       /* -webkit-text-stroke: 2px black; */
