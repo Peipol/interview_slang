@@ -27,7 +27,7 @@ function App() {
 
   return (
     <StyledDiv>
-      <Title>Slang Interview Enviroment</Title>
+      <Title>Slang Interview Environment</Title>
       <Paragraph>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
         esse blanditiis ad consequuntur rem, quidem voluptas perferendis dolorem
@@ -41,7 +41,7 @@ function App() {
       </Paragraph>
       <Button onClick={()=> onClick()}>You have clicked me <span>{counter[0]}</span> times</Button>
       
-      <Title size={5}>Scond Title</Title>
+      <Title size={5}>Second Title</Title>
       <Paragraph size={1.5}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
         esse blanditiis ad consequuntur rem, quidem voluptas perferendis dolorem
